@@ -1,0 +1,53 @@
+body {
+    font-family: 'Varela Round', sans-serif;
+}
+.container {
+    background-color: #ffe0b9;
+    max-width: 640px;
+    margin: auto;
+    padding: 100px;
+}
+.intro {
+    text-align: center;
+    background-color: white;
+    padding: 50px;
+    padding-top: 150px;
+    border-radius: 30px;
+}
+.intro-image img {
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+}
+.intro-title h1 {
+    margin-top: 30px;
+}
+.intro-title p {
+    width: 250px;
+    margin: auto;
+}
+.button {
+    display: flex;
+    flex-direction: column;
+    margin: 150px auto 50px auto;
+}
+.skip, .next {
+    text-align: center;
+}
+.skip a, .next a {
+    text-decoration: none;
+    padding: 25px 50px;
+    background-color: #655db0;
+    display: block;
+    color: #ffffff;
+    border-radius: 15px;
+}
+.skip a {
+    color: #655db0;
+    background-color: white;
+}
+.publix img {
+    height: 50px;
+}
